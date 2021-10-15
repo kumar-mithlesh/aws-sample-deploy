@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+sudo rm -rf /home/ubuntu/backup/aws-sample-deploy
+
 # Backup current deployment 
 sudo mv /home/ubuntu/aws-sample-deploy /home/ubuntu/backup/aws-sample-deploy
 
