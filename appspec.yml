@@ -16,8 +16,6 @@ hooks:
   BeforeInstall:
     - location: deployment_scripts/arrange_deployment_folders.sh
       runas: ubuntu
-    - location: deployment_scripts/create_and_assign.sh
-      runas: ubuntu
   AfterInstall:
     - location: deployment_scripts/bundle_and_compile_resources.sh
       runas: ubuntu
