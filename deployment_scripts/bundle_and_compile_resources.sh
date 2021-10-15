@@ -8,6 +8,7 @@ sudo mkdir /home/ubuntu/aws-sample-deploy/tmp/sockets
 
 #assign ownership
 sudo chown ubuntu:ubuntu -R /home/ubuntu/aws-sample-deploy/tmp/pids/
+sudo chown ubuntu:ubuntu -R /home/ubuntu/aws-sample-deploy/tmp/sockets/
 
 #change directory
 cd /home/ubuntu/aws-sample-deploy
