@@ -17,3 +17,4 @@ mkdir /home/ubuntu/aws-sample-deploy/tmp/sockets
 
 # Assign permissions
 sudo chown ubuntu:ubuntu -R /home/ubuntu/aws-sample-deploy
+sudo chown ubuntu:ubuntu -R /home/ubuntu/aws-sample-deploy/tmp/pids/
