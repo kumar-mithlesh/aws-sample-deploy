@@ -17,13 +17,14 @@ hooks:
     - location: deployment_scripts/arrange_deployment_folders.sh
       runas: ubuntu
   AfterInstall:
-    - location: deployment_scripts/install_gems.sh
-      runas: ubuntu
-    - location: deployment_scripts/compile_assets.sh
-      runas: ubuntu
-    - location: deployment_scripts/run_db_migrations.sh
+    - location: deployment_scripts/bundle_and_compile_resources.sh
       runas: ubuntu
 
   ApplicationStart:
-    - location: deployment_scripts/finish_installation.sh
+    - location: deployment_scripts/restart_services.sh
       runas: ubuntu
+
+
+
+
+
